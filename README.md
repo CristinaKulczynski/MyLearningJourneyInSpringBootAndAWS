@@ -27,5 +27,57 @@ De acordo com a documentação preciso de uma IDE que tenha a linguagem Java e u
  
  Depois de instalar e configurar vou fazer o "meu" primeiro código focado em Spring Boot. Não sei se estou entendendo muito bem, mas não entender faz parte do aprendizado. Se você clicar nas imagenzinhas acima será redirecionado as páginas que citei.
 
+### 2 - Iniciar um novo projeto Spring Boot (baby steps) 
+#### PASSO 1 - CRIAR
+- Cliquei nesse link https://start.spring.io/ 
+- Configurei como no gif abaixo
+![spring](https://user-images.githubusercontent.com/113571898/230308331-00561c79-abbd-4bdf-bb43-cff0b0368543.gif)
+- Cliquei em 'ADD DEPENDENCIES' e selecionei Spring Web
+- Depois apertei 'CTROL' + 'ENTER'
+- Salvei o arquivo 'demo.zip' e extrai seu conteúdo
+#### PASSO 2 - MODIFICAR
+- Abri a IDE, selecionei a pasta demo e localizei o arquivo ``DemoApplication.java`` na ``src/main/java/com/example/demo``
+- Subistitui o que estava no arquivo por este código abaixo
+
+```` java
+package com.example.demo;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+public class DemoApplication {
+    public static void main(String[] args) {
+      SpringApplication.run(DemoApplication.class, args);
+    }
+    @GetMapping("/hello")
+    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+      return String.format("Hello %s!", name);
+    }
+}
+````
+#### PASSO 3 - TESTAR
+- Abri o Prompt e entrei na pasta demo
+- Coloquei esta linha dde comando para executar o projeto
+```` java
+.\gradlew.bat bootRun
+````
+- Esta foi a minha saída
+
+![image](https://user-images.githubusercontent.com/113571898/230321526-047ae12f-aa77-42bf-a370-1a836b4120d8.png)
+ 
+- Abri meu navegador e na barra de endereço na parte superior digitei `http://localhost:8080/hello`
+- Olha só, temos um belo Hello World! 
+![image](https://user-images.githubusercontent.com/113571898/230323688-6d1c3008-e996-4ebe-8db6-e7971e809894.png)
+- Coloquei `?name=` no final do endereço e olhe só
+![image](https://user-images.githubusercontent.com/113571898/230323529-742726d5-e135-4fc6-b58f-483ccab7815a.png)
+
+
+
+
+
 
           
