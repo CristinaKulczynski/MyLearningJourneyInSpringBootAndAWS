@@ -21,9 +21,11 @@ Em um super resumo o Spring Boot é um framework para criação de aplicativos J
 De acordo com a documentação preciso de uma IDE que tenha a linguagem Java e um SDK 17. Uma IDE é um ambiente de desenvolvimento e o SDK um kit de ferramentas de desenvolvimento. Como eu tinha formatado o meu pc, preciso baixá-los novamente, e como não lembro como faz vou assistir tutoriais. 
 
 
- | Documentação | IDE                                                        |
- |--------------|------------------------------------------------------------|
- | <div><a href="https://spring.io/quickstart" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" target="_blank"></a></div>|<div><a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" target="_blank"></a></div>|
+ | Documentação | IDE                                                        |  SDK JAVA 17                                                     |
+ |--------------|------------------------------------------------------------|------------------------------------------------------------------|
+ | <div><a href="https://spring.io/quickstart" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" target="_blank"></a></div>|<div><a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" target="_blank"></a></div>|<div><a href="https://www.oracle.com/java/technologies/downloads/#jdk17-windows" target="_blank"><img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black" target="_blank"></a></div>|
+ 
+ Depois de instalar e configurar vou fazer o "meu" primeiro código focado em Spring Boot. Não sei se estou entendendo muito bem, mas não entender faz parte do aprendizado. Se você clicar nas imagenzinhas acima será redirecionado as páginas que citei.
 
 
           
