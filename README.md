@@ -27,13 +27,13 @@ De acordo com a documentação preciso de uma IDE que tenha a linguagem Java e u
  
  Depois de instalar e configurar vou fazer o "meu" primeiro código focado em Spring Boot. Não sei se estou entendendo muito bem, mas não entender faz parte do aprendizado. Se você clicar nas imagenzinhas acima será redirecionado as páginas que citei.
  
+
+### 3 - Iniciar um novo projeto Spring Boot (baby steps) 
 <details>
 
 <summary> Descrição do primeiro projeto </summary>
 
-### 3 - Iniciar um novo projeto Spring Boot (baby steps) 
-
-#### PASSO 1 - CRIAR
+ #### PASSO 1 - CRIAR
 
 - Cliquei nesse link https://start.spring.io/ 
 - Configurei como no gif abaixo
