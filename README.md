@@ -10,8 +10,6 @@ Um passo crucial no processo de aprendizagem é ter clareza sobre o objetivo a s
 - Meta : Compreender os conceitos básicos.
 - Tarefa : Pesquisar "O que é Spring Boot" e fazer um pequeno resumo.
 
-|  dfjsljdk  | bg          |
-|------------|-------------|
-             |             |
-             |             |
+#### Resumo
 
+Em um super resumo o Spring Boot é um framework para criação de aplicativos Java que simplifica  a criação de aplicativos autônomos, prontos para produção, com o mínimo de configuração. Ele é construído sobre o framework Spring e inclui várias ferramentas e bibliotecas que ajudam a desenvolver aplicações de maneira rápida e eficiente. 
