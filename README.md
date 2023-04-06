@@ -31,7 +31,7 @@ De acordo com a documentação preciso de uma IDE que tenha a linguagem Java e u
 
 <summary> Descrição do primeiro projeto </summary>
 
-### 2 - Iniciar um novo projeto Spring Boot (baby steps) 
+### 3 - Iniciar um novo projeto Spring Boot (baby steps) 
 
 #### PASSO 1 - CRIAR
 
