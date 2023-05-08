@@ -90,4 +90,3 @@ public class DemoApplication {
 
 </details>
 
-## Mudando o percurso para seguir a Trilha de aprendizado da Compass
