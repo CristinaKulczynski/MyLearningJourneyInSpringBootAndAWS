@@ -6,8 +6,8 @@ https://www.udemy.com/course/introduction-to-agile-scrum-and-kanban/
 ### 1 - Introduction to Agile : Scrum and Kanban 
 <details>
 <summary> SECTION 1: INTRODUCTION </summary>
-
-
+  **1.** The training teaches the values, principles, and strategies necessary to adopt the agile methodology and the most commonly used agile project management, such as Scrum and Kanban. The goal is to help people face the challenges of agile transformation and provide techniques and pratices for approaching agile work eddiciently. The training consists of videos that should be followed in order to get the most out of the information presented.
+  
 </details>
 
 <details>
