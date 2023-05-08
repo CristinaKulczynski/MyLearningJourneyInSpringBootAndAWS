@@ -90,10 +90,4 @@ public class DemoApplication {
 
 </details>
 
-
-
-### 4 - Teste 
-<details>
-<summary>Descrição</Summary>
-</details>
-          
+## Mudando o percurso para seguir a Trilha de aprendizado da Compass
