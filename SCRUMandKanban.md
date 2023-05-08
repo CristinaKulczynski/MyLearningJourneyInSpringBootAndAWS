@@ -1,7 +1,8 @@
 ## My Learning Journey in Scrum and Kanban                                                      
-Documenting my learning in Scrum and Kanban this course.
+Documenting my learning in Scrum and Kanban this course:
+``
 https://www.udemy.com/course/introduction-to-agile-scrum-and-kanban/
-
+``
 ### 1 - Introduction to Agile : Scrum and Kanban 
 <details>
 <summary> SECTION 1: INTRODUCTION </summary>
