@@ -26,20 +26,8 @@
 |git config --global init.defaultBranch mais| set the default branch|configura a ramificação padrão|
 |git config --global --list |shows default settings|mostra as configurações padrão|
 |nano start.txt| open file | abre arquivo |
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+|c .. |back to files|voltar nas pastas|
+|rm -rf nomedoarquivo| delete file | exlui arquivo|
+
+Sites:
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
