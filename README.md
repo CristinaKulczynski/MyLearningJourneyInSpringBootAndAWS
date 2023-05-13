@@ -96,5 +96,12 @@ public class DemoApplication {
 <details>
 
 <summary> Cursos da trilha da Compass </summary>
-  Os cursos abrangem temas como metodologia ágil, cibersegurança, Git e alguns cursos opcionais sobre AWS. Os resumos desses cursos estão disponíveis na pasta 'Courses WEEK I'. Além disso, vou adicionar os cursos que eu fizer lá também, mas o aprendizado de Spring continuará sendo documentado aqui no README.
+ 
+- Cursos complementares que fiz durante o percurso de aprendizado
+    - [ Agile Scrum and Kanban](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Agile%20Scrum%20and%20Kanban.md)
+    - [ Cyber Security](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Cyber%20Security.md)
+     - [	Git Complete ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Git%20Complete.md)
+     - [ Optional AWS ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Optional%20AWS.md)
+ 
 </details>
+
