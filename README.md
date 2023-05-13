@@ -91,11 +91,9 @@ public class DemoApplication {
 </details>
 
 
-#### PASSO 4 - CURSOS COMPLEMENTARES
+### 4 - CURSOS COMPLEMENTARES
 <details>
 
 <summary> Cursos da trilha da Compass </summary>
-  Os cursos são sobre metodologia ágil, cyber segurança, git e alguns cursos opcionais sobre AWS.
-  O resumo dos mesmos estão dentro da pasta Courses WEEK I.
-  Também colocarei os cursos que eu fizer lá dentro das pastas, porém o aprendizado de Spring continuará aqui no README.
+  Os cursos abrangem temas como metodologia ágil, cibersegurança, Git e alguns cursos opcionais sobre AWS. Os resumos desses cursos estão disponíveis na pasta 'Courses WEEK I'. Além disso, vou adicionar os cursos que eu fizer lá também, mas o aprendizado de Spring continuará sendo documentado aqui no README.
 </details>
