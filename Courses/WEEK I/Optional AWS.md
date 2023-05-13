@@ -18,6 +18,8 @@ Meu primeiro curso AWS
     
   - **Modelo de compartilhamento de responsabilidades**
      > A AWS é responsável pela segurança _da_ nuvem e o cliente é responsável pela segurança _na_ nuvem
-
-    -****: 
+     
+  - **Funções de trabalho na nuvem**
+    -  **Cloud Architect**
+        > resposável por fornecer uma estratégia geral de nuvem e por todo o ambiente de nuvem. Ele cira um projeto de arquitetura de nuvem de negócios para fornecer ambientes altamente disponíveis, econõmicos e escaláveis. 
      
