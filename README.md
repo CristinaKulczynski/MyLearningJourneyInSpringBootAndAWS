@@ -90,8 +90,9 @@ public class DemoApplication {
 
 </details>
 
+![](https://img.shields.io/badge/data-15%2F05-lightgrey)
 
-### 4 - CURSOS COMPLEMENTARES
+### 4 - Cursos complementares Scrum, GIT, Cyber Security
 <details>
 
 <summary> Cursos da trilha da Compass </summary>
