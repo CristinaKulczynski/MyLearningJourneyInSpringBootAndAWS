@@ -1,5 +1,7 @@
 ## Git Complete: The definitive, step-by-step guide to Git
 
+Este cuso está em ``https://www.udemy.com/share/1013D8/``
+
 ### Basics
 
 |Comand| Description                      | Descrição|

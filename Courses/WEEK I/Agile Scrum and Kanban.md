@@ -1,5 +1,6 @@
 ## Introduction to Agile : Scrum and Kanban Introduction to Agile
 
+Este curso está em ``https://www.udemy.com/share/105gi0/``
 
 <details> 
 <summary> In English Scrum</summary>
