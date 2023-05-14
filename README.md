@@ -98,7 +98,7 @@ public class DemoApplication {
 
 <summary> Cursos da trilha da Compass </summary>
  
-  > Vou fazer uma pausa no Spring para focar nos cursos das Sprints.
+   > Vou fazer uma pausa no Spring para focar nos cursos das Sprints.
  
   <details>
 
@@ -113,6 +113,17 @@ public class DemoApplication {
   - [	Git Complete ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Git%20Complete.md)
    
   - [ Optional AWS ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Optional%20AWS.md)
+  </details>
+ 
+ 
+  <details>
+
+  <summary> WEEK II </summary> 
+                                        
+  - Cursos complementares da semana 2 baby
+   
+     - [Java Bootcamp](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c917b43600b7143053da0d6e7eac72c81e651a77/Courses/WEEK%20II/Complete%20Java/Complete%20Java%20Development%20Bootcamp.md)
+
   </details>
  
 </details>
