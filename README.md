@@ -18,7 +18,7 @@ Em um super resumo o Spring Boot é um framework para criação de aplicativos J
 ![](https://img.shields.io/badge/data-06%2F04-lightgrey)
 ### 2 - Baixando uma IDE e um SDK
 
-De acordo com a documentação preciso de uma IDE que tenha a linguagem Java e um SDK 17. Uma IDE é um ambiente de desenvolvimento e o SDK um kit de ferramentas de desenvolvimento. Como eu tinha formatado o meu pc, preciso baixá-los novamente, e como não lembro como faz vou assistir tutoriais. 
+De acordo com a documentação preciso de uma IDE que tenha a linguagem Java e um SDK 17. Uma IDE é um ambiente de desenvolvimento e o SDK um kit de ferramentas de desenvolvimento. Como eu tinha formatado o meu pc, preciso baixá-los novamente, e como não lembro como faz vou assistir tutoriais. Também baixei o SDK do amazon por recomendação de um curso.
 
 
  | Documentação | IDE                                                        |  SDK JAVA 17                                                     |  AMAZON CORRETO            |
@@ -104,4 +104,3 @@ public class DemoApplication {
      - [ Optional AWS ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Optional%20AWS.md)
  
 </details>
-
