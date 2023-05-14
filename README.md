@@ -92,15 +92,31 @@ public class DemoApplication {
 
 ![](https://img.shields.io/badge/data-15%2F05-lightgrey)
 
-### 4 - Cursos complementares Scrum, GIT, Cyber Security
+-----
+### 4 - Cursos complementares 
 <details>
 
 <summary> Cursos da trilha da Compass </summary>
  
+  > Vou fazer uma pausa no Spring para focar nos cursos das Sprints.
+ 
+  <details>
+
+  <summary> WEEK I </summary>
+   
 - Cursos complementares que fiz durante o percurso de aprendizado
-    - [ Agile Scrum and Kanban](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Agile%20Scrum%20and%20Kanban.md)
-    - [ Cyber Security](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Cyber%20Security.md)
-     - [	Git Complete ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Git%20Complete.md)
-     - [ Optional AWS ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Optional%20AWS.md)
+   
+  - [ Agile Scrum and Kanban](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Agile%20Scrum%20and%20Kanban.md)
+   
+  - [ Cyber Security](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Cyber%20Security.md)
+   
+  - [	Git Complete ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Git%20Complete.md)
+   
+  - [ Optional AWS ](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c107dad229700d19e70c437e9f1a80d5c700e6c9/Courses/WEEK%20I/Optional%20AWS.md)
+  </details>
  
 </details>
+
+-----
+
+### 5 - Continuação
