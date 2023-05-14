@@ -1,0 +1,1 @@
+### Basicamente todo o resumo e dicas do curso estão neste link -> [JavaBootcamp](https://www.learnthepart.com/course/2e619a47-76f5-444e-8e86-e712631518a7/a469ef25-9b09-4508-86fd-6915a0593cee) e na pasta JavaBootcamp
