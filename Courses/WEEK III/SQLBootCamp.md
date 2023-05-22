@@ -1,9 +1,9 @@
-### SQL Bootcamp
+### SQL Bootcamp ✨
 
-#### O que são Databases?
+#### O que são Databases? 🤔
 - São sistemas que permitem que usuários armazenem e organizem dados.
 - E uma grande quantidade de dados.
-#### Usuários típicos de Databases
+#### Usuários típicos de Databases 👥
 - Analistas
     - Marketing
     - Negócios
@@ -57,8 +57,9 @@
 
 ---
 
-###  Foto comandos SQL
-![Foto comandos SQL]()
+###  Foto comandos SQL 
+![Foto comandos SQL](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/assets/113571898/901f3bda-8153-4a5d-b68c-87bbb817abf5
+)
 
 
 
