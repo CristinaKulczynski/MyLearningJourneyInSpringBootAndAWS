@@ -61,11 +61,260 @@
 ![Foto comandos SQL](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/assets/113571898/901f3bda-8153-4a5d-b68c-87bbb817abf5
 )
 
+### Comandos SQL
+
+- SELECT seleciona a coluna que você quer.
+- FROM seleciona a tabela.
+- DISTINCT seleciona os valores únicos.
+- WHERE condições especificas.
+- ORDER BY seleciona a ordem.
+- LIMIT seleciona a quantidade de linhas.
+- BETWEEN seleciona o intervalo.
+- IN se o valor especifico está dentro da tabela.
+- LIKE buscar registros que comecem com um determinado valor por exemplo.
+- GROUP BY agrupa os valores. 
+- AS renomeia a coluna.
+- HAVING condições especificas para o GROUP BY.
+- INNER JOIN junta duas tabelas.
+- LEFT JOIN junta duas tabelas e mostra todos os valores da tabela da esquerda.
+- RIGHT JOIN junta duas tabelas e mostra todos os valores da tabela da direita.
+- FULL JOIN junta duas tabelas e mostra todos os valores das duas tabelas.
+
+### Funções SQL
+
+- AVG() retorna a média.
+    - ROUND() arredonda o valor.
+- COUNT() retorna a quantidade de linhas.
+- MAX() retorna o maior valor.
+- MIN() retorna o menor valor.
+- SUM() retorna a soma dos valores.
+
+### Criar tabelas
+````sql
+ CREATE TABLE account(
+    user_id SERIAL PRIMARY KEY, 
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    email VARCHAR(250) UNIQUE NOT NULL,
+    created_on TIMESTAMP NOT NULL,
+    last_login TIMESTAMP
+    )
+````
+````sql	
+ CREATE TABLE job(
+    job_id SERIAL PRIMARY KEY,
+    job_name VARCHAR(200) UNIQUE NOT NULL
+)
+````
+
+````sql	
+CREATE TABLE account_job(
+    user_id INTEGER REFERENCES account(user_id), 
+    job_id INTEGER REFERENCES job(job_id),
+    hire_date TIMESTAMP
+)
+````
+
+````sql	
+CREATE TABLE information(
+    info_id SERIAL PRIMARY KEY,
+    title VARCHAR(500) NOT NULL, 
+    person VARCHAR(50) NOT NULL UNIQUE
+)
+````
 
 
+### Inserir dados nas tabelas
 
+````sql
+INSERT INTO account(username, password, email, created_on)
+VALUES
+('Jose', 'pasword', 'jose@mail.com', CURRENT_TIMESTAMP)
+````
 
+````sql	
+INSERT INTO job(job_name)
+VALUES
+('Astronaut')
+````
 
+````sql	
+INSERT INTO job(job_name)
+VALUES 
+('President')
+````
 
+````sql	
+INSERT INTO account_job(user_id, job_id, hide_date)
+VALUES
+(1, 1, CURRENT_TIMESTAMP)
+````
+````sql
+INSERT INTO job(job_name)
+VALUES
+('Cowboy')
+````
 
+````sql	
+INSERT INTO new_info (title)
+VALUES
+('Some new title')
+````
+### Atualizar tabelas
 
+````sql
+UPDATE account
+SET last_login = CURRENT_TIMESTAMP
+````
+````sql
+UPDATE account
+SET last_login = created_on 
+````
+````sql	
+UPDATE account_job
+SET hire_date = account.created_on
+FROM account
+WHERE account_job.user_id = account.user_id
+````
+
+### Deletar 
+
+````sql
+DELETE FROM job
+WHERE job_name = 'Cowboy'
+RETURNING job_id, job_name
+````
+
+### Alterar tabelas
+
+````sql
+ALTER TABLE new_information 
+RENAME TO new_info 
+````
+
+````sql
+ALTER TABLE new_info
+RENAME COLUMN person TO people 
+````
+
+````sql	
+ALTER TABLE new_info
+ALTER COLUMN people DROP NOT NULL
+````
+
+### DROP 
+
+````sql	
+ALTER TABLE new_info
+DROP COLUMN people 
+````
+````sql	
+ALTER TABLE new_info
+DROP COLUMN IF EXISTS people 
+````
+
+### CHECK 
+
+````sql	
+CREATE TABLE employees(
+    emp_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    birthday DATE CHECK(birthday > '1900-01-01'),
+    hire_date DATE CHECK(hire_date > birthday),
+    salary INTEGER CHECK(salary > 0)
+)
+````
+
+### CASE
+
+````sql	
+SELECT customer_id,
+CASE 
+	WHEN (customer_id <= 100) THEN 'Premium'
+	WHEN (customer_id BETWEEN 100 and 200) THEN 'Plus'
+	ELSE 'Normal'
+END AS customer_class
+FROM customer 
+````
+
+````sql	
+SELECT customer_id,
+CASE customer_id
+	WHEN 2 THEN 'Winner'
+	WHEN 5 THEN 'Second Place'
+	ELSE 'Normal'
+END AS raffle_results
+FROM customer 
+```` 
+
+````sql	
+SELECT rental_rate,
+CASE rental_rate
+	WHEN 0.99 THEN 1
+	ELSE 0
+END
+FROM film
+````
+````sql	
+SELECT 
+SUM(CASE rental_rate
+	WHEN 0.99 THEN 1
+	ELSE 0
+END) AS number_of_bargains
+FROM film
+````
+````sql	
+SELECT 
+SUM(CASE rental_rate
+	WHEN 0.99 THEN 1
+	ELSE 0
+END) AS bargains,
+SUM(CASE rental_rate
+	WHEN 2.99 THEN 1
+	ELSE 0
+END) AS regular
+FROM film
+````
+### CAST
+    
+````sql
+SELECT CAST('5' AS INTEGER) AS new_int 
+````
+````sql
+SELECT '5'::INTEGER 
+````
+````sql
+SELECT CAST(inventory_id AS VARCHAR) FROM rental
+````
+````sql
+SELECT CHAR_LENGTH(CAST(inventory_id AS VARCHAR)) FROM rental
+````
+
+### NULLIF
+
+````sql
+SELECT(
+SUM(CASE WHEN department = 'A' THEN 1 ELSE 0 END)/
+NULLIF(SUM(CASE WHEN department = 'B' THEN 1 ELSE 0 END), 0)
+) AS department_ratio
+FROM depts
+````
+
+### VIEWS
+
+````sql
+CREATE VIEW customer_info AS
+SELECT first_name, last_name, address FROM customer
+INNER JOIN address
+ON customer.address_id = address.address_id
+````
+````sql
+CREATE OR REPLACE VIEW customer_info AS
+SELECT first_name, last_name, address, district FROM customer
+INNER JOIN address
+ON customer.address_id = address.address_id
+````
+````sql
+DROP VIEW IF EXISTS customer_info
+````	
