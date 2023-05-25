@@ -123,6 +123,7 @@ public class DemoApplication {
   - Cursos complementares da semana 2 baby
    
      - [Java Bootcamp](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c917b43600b7143053da0d6e7eac72c81e651a77/Courses/WEEK%20II/Complete%20Java/Complete%20Java%20Development%20Bootcamp.md)
+     - [PostgreeSQL](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/46c37b91f439153f59b2da79a859b13d27ff9993/Courses/WEEK%20III/SQLBootCamp.md)
 
   </details>
  
