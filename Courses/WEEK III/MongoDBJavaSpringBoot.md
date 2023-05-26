@@ -84,3 +84,5 @@ Clique no icone de folhinha com maisinho.
     "mail" : "peter@gmail.com"
 }
 ````
+![teste](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/assets/113571898/dbe2abcf-3d9c-40c2-808f-74b7450df0a5)
+
