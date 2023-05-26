@@ -17,4 +17,14 @@ Se clicar na imagem abaixo será redirediconado ao site oficial do MongoDB, onde
 
 A dica para instalar é utilizar o NFC, ou seja, Next, Next, Finish e Close. Não esqueça de marcar a caixinha de Install MongoDB Compass. Pois será a interface. 
 
+Mas no final das contas vou usar outra interface, a Studio 3T.
+
+É só baixar da internet e instalar.
+
+#### Criando um banco de dados
+
+Vamos abrir o Studio 3T, clicar com o botão direito na pasta localhost e selecionar a opção Create Database. Dê um nome da sua preferência. Eu coloquei o nome spring. 
+
+
+
 
