@@ -25,6 +25,62 @@ Mas no final das contas vou usar outra interface, a Studio 3T.
 
 Vamos abrir o Studio 3T, clicar com o botão direito na pasta localhost e selecionar a opção Create Database. Dê um nome da sua preferência. Eu coloquei o nome spring. 
 
+##### 1 - Criando uma coleção 
+- Abra a pasta spring, depois clique com o botão direito em collections e crie uma coleção. 
+- Dê um nome e depois clique em Create.
 
+##### 2 - Inserindo dados na coleção
+Clique no icone de folhinha com maisinho.
 
+````json
+{
+   "name": "John"
+}
+````
+````json
+{
+    "name" : "Peter",
+    "mail" : "peter@gmail.com",
+    "department" : {
+        "department_name" : "Computer Science",
+        "location" : "INDIA"
+    }
+}
+````
 
+````json
+{
+    "name" : "Steve",
+    "mail" : "steve@gmail.com",
+    "subject" : [
+        {
+            "subject_name" : "Java",
+            "marks_obtained" : 70
+        },
+        {
+            "subject_name" : "MongoDB",
+            "marks_obtained" : 80
+        }
+    ]
+}
+````
+
+##### 2 - Lendo os dados da coleção (ou documentos) 
+
+- Vamos copiar o ID do primeiro documento 
+- Vá no Query 
+- Clique no icone com linhas e uma setinha para baixo coleque o id e Run.
+- Daí vai aparecer os valores do documento.
+- Ou você pode pesquisar dessa outra forma:
+
+````json
+{
+    "name" : "Steve",
+}
+````
+- Ou só colocar no espaço de pesquisa:
+````json
+{
+    "mail" : "peter@gmail.com"
+}
+````
