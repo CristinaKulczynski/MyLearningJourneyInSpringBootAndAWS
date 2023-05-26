@@ -132,4 +132,4 @@ Clique no icone de folhinha com maisinho.
 - Clique no documendo e edit. 
 - Pelo comando também, abrindo o IntelliShell.
 
-
+![image](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/assets/113571898/372ba9cd-93bf-4587-b35e-8c3c40c68c41)
