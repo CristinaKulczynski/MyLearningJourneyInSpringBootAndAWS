@@ -92,7 +92,6 @@ public class DemoApplication {
 
 ![](https://img.shields.io/badge/data-15%2F05-lightgrey)
 
------
 ### 4 - Cursos complementares 
 <details>
 
@@ -123,13 +122,21 @@ public class DemoApplication {
   - Cursos complementares da semana 2 baby
    
      - [Java Bootcamp](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/c917b43600b7143053da0d6e7eac72c81e651a77/Courses/WEEK%20II/Complete%20Java/Complete%20Java%20Development%20Bootcamp.md)
+
+  </details>
+
+   <details>
+
+  <summary> WEEK III </summary> 
+                                        
+  - Mais uma semaninha de curso e dessa vez a abordagem será direcionada a banco de dados.
+   
      - [PostgreeSQL](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/46c37b91f439153f59b2da79a859b13d27ff9993/Courses/WEEK%20III/SQLBootCamp.md)
+     - [MongoDB](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/0c23293e0d1a9d6b892bf89613ecdccf9461a0bb/Courses/WEEK%20III/MongoDBJavaSpringBoot.md)
 
   </details>
  
 </details>
 
------
 
 ### 5 - Continuação
-adsfasdfasdf
