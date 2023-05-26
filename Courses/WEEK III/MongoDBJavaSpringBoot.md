@@ -86,3 +86,50 @@ Clique no icone de folhinha com maisinho.
 ````
 ![teste](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/assets/113571898/dbe2abcf-3d9c-40c2-808f-74b7450df0a5)
 
+##### 3 - AND e OR
+
+````json
+{
+    $and : [
+        {
+            "name" : "Peter"
+        },
+        {
+            "mail" : "peter@gmail.com"
+        }
+    ]
+}
+````	
+````json
+{
+    $or : [
+        {
+            "name" : "eter"
+        },
+        {
+            "mail" : "peter@gmail.com"
+        }
+    ]
+}
+````	
+#### IN 
+````json
+{
+    "name" : {
+        $in : ["John"]
+    }
+}
+````
+````json
+{
+    "name" : {
+        $in : ["John", "Peter"]
+    }
+}
+````
+#### Atualizando documento
+
+- Clique no documendo e edit. 
+- Pelo comando também, abrindo o IntelliShell.
+
+
