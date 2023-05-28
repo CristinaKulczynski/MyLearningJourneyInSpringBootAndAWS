@@ -133,3 +133,42 @@ Clique no icone de folhinha com maisinho.
 - Pelo comando também, abrindo o IntelliShell.
 
 ![image](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/assets/113571898/372ba9cd-93bf-4587-b35e-8c3c40c68c41)
+
+- Podemos modificar vários documentos também 
+
+````json
+db.student.updateMany(
+    {
+        "name" : "John"
+    },
+    {
+        $set : {
+            "name" : "John111"
+        }
+    }
+)
+````
+
+#### Deletando documento
+
+````json
+db.student.remove(
+    {
+        "name" : "John"
+    }
+)
+````
+
+#### Find
+
+````json
+db.student.find(
+    {
+        "name" : "Peter-1"
+    }
+)
+````
+#### Criando aplicação Spring Boot com MongoDB
+    Baixei um arquivo que estava no curso vou tentar resumir os passos. 
+    
+

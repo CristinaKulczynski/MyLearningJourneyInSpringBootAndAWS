@@ -1,5 +1,7 @@
 ### SQL Bootcamp ✨
 
+#### O é SQL? 
+- Uma linguagem de consulta estruturada.
 #### O que são Databases? 🤔
 - São sistemas que permitem que usuários armazenem e organizem dados.
 - E uma grande quantidade de dados.
@@ -64,15 +66,58 @@
 ### Comandos SQL
 
 - SELECT seleciona a coluna que você quer.
+````sql	
+SELECT coluna1, coluna2
+FROM tabela;
+````
 - FROM seleciona a tabela.
 - DISTINCT seleciona os valores únicos.
+````sql	
+SELECT DISTINCT coluna
+FROM tabela;
+````
 - WHERE condições especificas.
+````sql	
+SELECT coluna
+FROM tabela
+WHERE condição;
+````
 - ORDER BY seleciona a ordem.
+````sql	
+SELECT coluna
+FROM tabela
+ORDER BY coluna ASC/DESC;
+````
 - LIMIT seleciona a quantidade de linhas.
+````sql	
+SELECT coluna
+FROM tabela
+LIMIT quantidade;
+````
 - BETWEEN seleciona o intervalo.
+````sql	
+SELECT coluna
+FROM tabela
+WHERE coluna BETWEEN valor1 AND valor2;
+````
 - IN se o valor especifico está dentro da tabela.
+````sql	
+SELECT coluna
+FROM tabela
+WHERE coluna IN (valor1, valor2, valor3);
+````
 - LIKE buscar registros que comecem com um determinado valor por exemplo.
+````sql	
+SELECT coluna
+FROM tabela
+WHERE coluna LIKE 'valor%';
+````
 - GROUP BY agrupa os valores. 
+````sql	
+SELECT coluna1, coluna2
+FROM tabela
+GROUP BY coluna1, coluna2;
+````
 - AS renomeia a coluna.
 - HAVING condições especificas para o GROUP BY.
 - INNER JOIN junta duas tabelas.
