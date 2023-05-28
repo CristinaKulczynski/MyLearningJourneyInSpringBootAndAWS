@@ -119,20 +119,70 @@ FROM tabela
 GROUP BY coluna1, coluna2;
 ````
 - AS renomeia a coluna.
+````sql
+SELECT coluna AS novo_nome
+FROM tabela;
+````
 - HAVING condições especificas para o GROUP BY.
+````sql
+SELECT coluna1, coluna2
+FROM tabela
+GROUP BY coluna1, coluna2
+HAVING condição;
+````
 - INNER JOIN junta duas tabelas.
+````sql
+SELECT coluna
+FROM tabela1
+INNER JOIN tabela2 ON tabela1.coluna = tabela2.coluna;
+````
 - LEFT JOIN junta duas tabelas e mostra todos os valores da tabela da esquerda.
+````sql
+SELECT coluna
+FROM tabela1
+LEFT JOIN tabela2 ON tabela1.coluna = tabela2.coluna;
+````
 - RIGHT JOIN junta duas tabelas e mostra todos os valores da tabela da direita.
+````sql
+SELECT coluna
+FROM tabela1
+RIGHT JOIN tabela2 ON tabela1.coluna = tabela2.coluna;
+````
 - FULL JOIN junta duas tabelas e mostra todos os valores das duas tabelas.
+````sql
+SELECT coluna
+FROM tabela1
+FULL JOIN tabela2 ON tabela1.coluna = tabela2.coluna;
+````
 
 ### Funções SQL
 
 - AVG() retorna a média.
     - ROUND() arredonda o valor.
+````sql
+SELECT AVG(coluna) AS media_arredondada
+FROM tabela;
+````
 - COUNT() retorna a quantidade de linhas.
+````sql
+SELECT COUNT(*) AS quantidade_linhas
+FROM tabela;
+````
 - MAX() retorna o maior valor.
+````sql	
+SELECT MAX(coluna) AS maior_valor
+FROM tabela;
+````
 - MIN() retorna o menor valor.
+````sql
+SELECT MIN(coluna) AS menor_valor
+FROM tabela;
+````
 - SUM() retorna a soma dos valores.
+````sql
+SELECT SUM(coluna) AS soma_valores
+FROM tabela;
+````
 
 ### Criar tabelas
 ````sql
