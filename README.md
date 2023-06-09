@@ -135,6 +135,24 @@ public class DemoApplication {
      - [MongoDB](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/0c23293e0d1a9d6b892bf89613ecdccf9461a0bb/Courses/WEEK%20III/MongoDBJavaSpringBoot.md)
 
   </details>
+
+ <details>
+
+  <summary> WEEK IV </summary> 
+                                        
+  - A semana 4 foi o desafio composto por 4 questões que estão em um repositório privado.
+   
+  </details>
+ 
+ <details>
+
+  <summary> WEEK V </summary> 
+                                        
+  - Darei continuidade ao Spring Boot, depois de terminar o curso farei um resuminho aqui no readme.
+   
+     - [Spring Boot](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/1ae3bec639d0e47286f47ac695ae65d4f41c4ff1/Courses/WEEK%20V/SpringBoot.md)
+
+  </details>
  
 </details>
 
