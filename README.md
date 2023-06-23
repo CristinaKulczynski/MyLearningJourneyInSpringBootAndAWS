@@ -153,6 +153,26 @@ public class DemoApplication {
      - [Spring Boot](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/1ae3bec639d0e47286f47ac695ae65d4f41c4ff1/Courses/WEEK%20V/SpringBoot.md)
 
   </details>
+
+  <details>
+
+  <summary> WEEK VI </summary> 
+                                        
+  - Não tenho muito o que falar aqui, apenas que o curso foi muito extenso.
+   
+     - [Testing Spring Boot](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/1ae3bec639d0e47286f47ac695ae65d4f41c4ff1/Courses/WEEK%20V/SpringBoot.md)
+
+  </details>
+
+  <details>
+
+  <summary> WEEK VII </summary> 
+                                        
+  - Estou na semana 7 e obviamente atrasada.
+   
+     - [Microservice Spring Boot](https://github.com/CristinaKulczynski/MyLearningJourneyInSpringBootAndAWS/blob/1ae3bec639d0e47286f47ac695ae65d4f41c4ff1/Courses/WEEK%20V/SpringBoot.md)
+
+  </details>
  
 </details>
 
